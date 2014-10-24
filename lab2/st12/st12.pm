@@ -1,10 +1,10 @@
-#!C:/Perl64/bin/Perl.exe
+package ST12;
 use strict;
 use CGI;
 use CGI::Carp qw(fatalsToBrowser);
 
 my @DATABASE=();
-my $pathFile='654';
+my $pathFile='lab2\st12\datafiles\654';
 my @MODULES =
 (
 	\&edit,
@@ -21,7 +21,9 @@ my @ElNames=(
 	'Сердечник'
 	);
 	
-Lab2Main();
+sub st12{
+	Lab2Main();
+}
 
 sub menu{
 	my ($q, $global) = @_;

@@ -1,19 +1,22 @@
-#!/usr/bin/perl
+#!C:/Perl64/bin/Perl.exe
 
 use strict;
 use CGI;
 use CGI::Carp qw(fatalsToBrowser);
 
 use lab2::st01::st01;
+use lab2::st12::st12;
 
 my @MODULES = 
 (
 	\&ST01::st01,
+	\&ST12::st12
 );
 
 my @NAMES = 
 (
 	"Student 01",
+	"Kushnikov V."
 );
 
 Lab2Main();
