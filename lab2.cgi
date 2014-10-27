@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!C:/Perl64/bin/Perl.exe
 
 use strict;
 use CGI;
